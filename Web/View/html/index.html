@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Code Bytes</title>
+        <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+    </head>
+    <body>
+        <h1>Join Code Bytes</h1>
+        <p>To join Code Bytes, enter your name and email address below</p>
+
+        <form action="emailList" method="post">
+            <input type="hidden" name="action" value="add">
+
+            <label>Email:</label>
+            <input type="email" name="email" required><br>
+
+            <label>First Name:</label>
+            <input type="text" name="firstName" required>
+
+            <lable>Last Name:</lable>
+            <input type="text" name="lastName" required>
+
+            <lable>&nbsp;</lable>
+            <input type="submit" value="Join Now" id="submit"> 
+        </form>
+    </body>
+</html>
